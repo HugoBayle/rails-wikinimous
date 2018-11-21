@@ -1,0 +1,46 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: url("https://media.begeek.fr/2018/06/TM04WU4GNPYP1529015411485.jpg");
+  background-size:cover;
+  margin:0;
+  color: white;
+}
+
+.index {
+  //background-color: rgba(250,250,250,0.9);
+  display: block;
+  margin: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.content {
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.text-align {
+  text-align: center;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
